@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Amr - Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="glass-header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="logo-emoji">🚀</span>
+                <span class="logo-text">Mahmoud.Amr</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-switcher">
+                    <i class='bx bx-sun'></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="name-highlight">Mahmoud Amr</span>
+                </h1>
+                <div class="dynamic-subtitle">
+                    <div class="decorative-line"></div>
+                    <span class="animated-text"></span>
+                    <span class="text-cursor"></span>
+                </div>
+                <div class="cta-group">
+                    <a href="#projects" class="primary-cta">
+                        View Projects
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                    <a href="#contact" class="secondary-cta">
+                        Contact Me
+                        <i class='bx bx-message-dots'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Mastering modern technologies</p>
+        </div>
+
+        <div class="skills-grid">
+            <!-- HTML5 Card -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class='bx bxl-html5'></i>
+                </div>
+                <h3>HTML5</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-level="95%"></div>
+                </div>
+                <span class="skill-percent">95%</span>
+            </div>
+
+            <!-- CSS3 Card -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class='bx bxl-css3'></i>
+                </div>
+                <h3>CSS3</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-level="90%"></div>
+                </div>
+                <span class="skill-percent">90%</span>
+            </div>
+
+            <!-- JavaScript Card -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-level="70%"></div>
+                </div>
+                <span class="skill-percent">70%</span>
+            </div>
+
+            <!-- Flutter Card -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class='bx bxl-flutter'></i>
+                </div>
+                <h3>Flutter</h3>
+                <div class="skill-progress">
+                    <div class="progress-bar" data-level="80%"></div>
+                </div>
+                <span class="skill-percent">80%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Explore my technical capabilities</p>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-hover-button">
+                    <i class='bx bx-link-external'></i>
+                </div>
+                <div class="project-header">
+                    <i class='bx bx-code-alt project-icon'></i>
+                    <div class="project-meta">
+                        <span class="project-category">Web Development</span>
+                        <div class="project-rating">
+                            <i class='bx bxs-star'></i>4.9
+                        </div>
+                    </div>
+                </div>
+                <h3 class="project-title">E-Commerce Platform</h3>
+                <p class="project-description">
+                    Full-stack shopping solution with real-time inventory management.
+                </p>
+                <div class="project-tech-stack">
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">MongoDB</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info-card">
+                <div class="card-header">
+                    <h2>Let's Connect</h2>
+                    <p>Available for collaborations</p>
+                </div>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class='bx bx-envelope'></i>
+                        <div class="detail-content">
+                            <h4>Email</h4>
+                            <p>contact@mahmoud.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <i class='bx bx-phone'></i>
+                        <div class="detail-content">
+                            <h4>Phone</h4>
+                            <p>+20 123 456 789</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <form class="elegant-form">
+                    <div class="form-group dual-inputs">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        Send Message
+                        <i class='bx bx-send'></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+</body>
+</html>
